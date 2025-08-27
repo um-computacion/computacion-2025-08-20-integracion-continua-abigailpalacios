@@ -1,5 +1,5 @@
 import unittest
-from main import suma
+from main import suma, resta
 
 
 class TestSuma(unittest.TestCase):
@@ -7,7 +7,7 @@ class TestSuma(unittest.TestCase):
         self.assertEqual(suma(1,1),2)
 
     def test_resta(self):
-        self.assertEqual(suma(5,3),2)
+        self.assertEqual(resta(2,1),1)
 
 
 if __name__ == "__main__":
