@@ -6,6 +6,9 @@ class TestSuma(unittest.TestCase):
     def test_suma(self):
         self.assertEqual(suma(1,1),2)
 
+    def test_resta(self):
+        self.assertEqual(suma(5,3),2)
+
 
 if __name__ == "__main__":
     unittest.main()
