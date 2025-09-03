@@ -9,6 +9,5 @@ class TestSuma(unittest.TestCase):
     def test_resta(self):
         self.assertEqual(resta(2,1),1)
 
-
 if __name__ == "__main__":
     unittest.main()
